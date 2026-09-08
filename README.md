@@ -3,8 +3,11 @@
 A family history website, built one ancestral line at a time and graded by evidence throughout.
 
 - **Paternal — the Späni–Spaeny line.** Eleven generations from Illgau, Canton Schwyz to Lyons
-  and Hutchinson, Kansas. Complete and live.
-- **Maternal.** Not yet compiled. The site is already structured to take it.
+  and Hutchinson, Kansas.
+- **Maternal — the Kroeker line.** Four generations, all of them in Reno County, Kansas. Newer
+  and thinner than the paternal line, and the page says so plainly.
+
+The two join at the 1975 marriage of Michael Craig Spaeny and Twila May Kroeker, in Hutchinson.
 
 ## Layout
 
@@ -12,23 +15,24 @@ A family history website, built one ancestral line at a time and graded by evide
 public/
   index.html            the hub — both lines, the evidence standard, how to contribute
   lines/
-    spaeny.html         the paternal line (one long page)
+    spaeny.html         the paternal line          ->  /spaeny
+    kroeker.html        the maternal line          ->  /kroeker
   assets/
     site.css            the whole design system, shared by every page
-    site.js             shared behaviour (the evidence filter)
+    site.js             shared behaviour (evidence filter, section nav)
   img/                  photographs, once the family sends some
 templates/
-  line-page.html        skeleton for the next line's page (never served)
+  line-page.html        skeleton for a further line's page (never served)
 research/
   README.md             the research index and the standard every line is held to
   spaeny-lineage-research.md    evidence base for the paternal line
-  maternal-lineage-research.md  evidence base for the maternal line (open questions so far)
+  maternal-lineage-research.md  evidence base for the maternal Kroeker line
 server.js               tiny zero-dependency static server
 CLAUDE.md               instructions for Claude Code when editing this project
 ```
 
-URLs are clean: `/` is the hub, `/spaeny` is the paternal line. Dropping a new file at
-`public/lines/<name>.html` makes `/<name>` work immediately — no server change.
+URLs are clean: `/` is the hub, `/spaeny` and `/kroeker` are the two lines. Dropping a new file
+at `public/lines/<name>.html` makes `/<name>` work immediately — no server change.
 
 ## Run it locally
 
@@ -42,24 +46,24 @@ Open http://localhost:3000. Requires Node 18 or newer.
 
 Railway deploys from a GitHub repository and redeploys automatically on every push.
 
-1. **Push to GitHub.** This folder is a git repository with local commits, but **no remote is
-   configured yet and nothing has been pushed.** Create an empty repository on GitHub, then:
+1. **GitHub — already done.** The repository is live at
+   **https://github.com/spaeny10/spaeny**, on branch `main`, and `origin` is configured. To
+   push later work:
 
    ```bash
-   git remote add origin https://github.com/<you>/<repo>.git
-   git branch -M main
-   git push -u origin main
+   git push
    ```
 
-   You'll be asked to authenticate the first time — a browser prompt, or a personal access
-   token used as the password. If the GitHub repo already has commits in it, run
-   `git pull --rebase origin main` first.
-
-   Or ask Claude Code: "push this repo to github.com/&lt;you&gt;/&lt;repo&gt;".
+   > **Note: this repository is public.** The deployed site sets `robots: noindex` because it
+   > names living relatives, but a public repo is crawled and indexed regardless, so those names
+   > and the contact address are publicly searchable. If that is ever not what you want, change
+   > it in **Settings → General → Danger Zone → Change repository visibility**. Railway deploys
+   > from private repositories exactly the same way.
 
 2. **Create the Railway project.** At railway.app: **New Project → Deploy from GitHub repo**,
-   authorise GitHub if asked, and pick the repository. Railway reads `railway.json`, detects
+   authorise GitHub if asked, and pick `spaeny10/spaeny`. Railway reads `railway.json`, detects
    Node from `package.json`, and runs `node server.js`. First build takes a minute or two.
+   **This is the only step still outstanding.**
 
 3. **Give it a public address.** In the service: **Settings → Networking → Generate Domain**.
    You get a `*.up.railway.app` URL that works immediately — send that to your dad.
@@ -86,26 +90,38 @@ railway up
 railway domain
 ```
 
-## Adding the maternal line
+## What to chase next
 
-The structure is already in place. In order:
+Each line's page carries its own research plan, ranked by effort against payoff. The two that
+would move things furthest:
 
-1. **Gather the starting facts** — a maiden name, a rough place of origin, and any dates or
+- **Bueford Kroeker's obituary, May 1993, in the *Hutchinson News*.** It would name his parents
+  and turn the whole oldest Kroeker generation from a submitted tree into sourced fact. The
+  single most valuable missing document on either line.
+- **Donald Spaeny's WD AGO 53-55 discharge certificate.** Boxes 32 and 33 name his campaigns and
+  medals — the question the paternal line still cannot answer, because the master copy almost
+  certainly burned in St. Louis in 1973. Ask the family before any archive.
+
+And on the Kroeker side there is a deadline of a kind: seven of Bueford and Opal's ten children
+were living in Hutchinson in 2018. That line's memory is still in people who can be phoned.
+
+## Adding a further line
+
+1. **Gather the starting facts** — a surname, a rough place of origin, and any dates or
    documents in hand (a marriage licence, an obituary, a family Bible page).
-2. **Fill in `research/maternal-lineage-research.md`.** Research goes here first, always.
-   The page is written *from* the research file, never the other way round.
+2. **Write the research file first.** The page is written *from* the research, never the other
+   way round. See `research/README.md` for the standard.
 3. **Copy `templates/line-page.html` to `public/lines/<surname>.html`** and write it up. It
-   inherits the whole design system from `assets/site.css`, so it will match the paternal page
-   without any new CSS.
-4. **Add the line to the hub** — the second `.door` in `public/index.html` — and to the
-   `.linebar` switcher at the top of every line page.
+   inherits the whole design system from `assets/site.css`, so it matches without new CSS.
+4. **Register it twice** — a `.door` in `public/index.html`, and the `.linebar` switcher at the
+   top of *every* line page.
 
 Claude Code knows this sequence; `CLAUDE.md` spells out the editorial rules that go with it.
 Useful prompts:
 
-- "Start the maternal line. Mum's maiden name is …, she was born in … — here's what we know."
 - "Aunt Reja sent a photo of Grandpa Donald in uniform — add it to the war section with her as the source."
 - "The discharge paper arrived. Box 32 says … and box 33 says … — update Donald's section and the research plan."
+- "Bueford's 1993 obituary names his parents as … — update the Kroeker line and re-grade generation 1."
 - "The Staatsarchiv Schwyz sent the Späni arms. Here's the blazon: … Replace the placeholder shield."
 
 ## Cost

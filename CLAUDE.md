@@ -102,8 +102,14 @@ node server.js          # http://localhost:3000
 
 ## Deploying
 
-Push to the connected GitHub repo; Railway redeploys automatically. **No remote is configured
-yet** — see README.md.
+`git push` to **https://github.com/spaeny10/spaeny** (branch `main`, remote `origin` configured).
+Railway redeploys automatically once the project is connected — **that connection has not been
+made yet**; see step 2 of README.md.
+
+**The GitHub repository is public.** The site itself sets `robots: noindex` because it names
+living relatives, but the repo is indexed regardless. Shawn chose this knowingly on 7 Sep 2026.
+Keep it in mind when adding anything about a living person: on this project, "living people stay
+thin" (rule 6) is the only privacy control actually in force.
 
 ## Verification log
 
