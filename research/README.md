@@ -9,7 +9,7 @@ if it's here with a hedge, the hedge goes on the site too.
 | File | Line | State |
 |---|---|---|
 | `spaeny-lineage-research.md` | Paternal — Späni–Spaeny, Illgau SZ → Kansas | 11 generations traced; gens 1–4 unproven |
-| `maternal-lineage-research.md` | Maternal | Not started — open questions only |
+| `maternal-lineage-research.md` | Maternal — Kroeker, Reno County, Kansas | 4 generations traced; gen 1 unproven |
 
 One file per line. When a new line is added, add a file and a row here.
 

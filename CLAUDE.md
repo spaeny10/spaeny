@@ -4,13 +4,17 @@ A family history website built **one ancestral line per page**, deployed on Rail
 tiny Node server. Shawn Spaeny (shawn@jetstreamsys.com) owns and maintains it. Compiled for
 Michael Spaeny and the wider family.
 
-Two lines are planned. The paternal one is written; the maternal one is next.
+Two lines are written: the paternal **Späni–Spaeny** line (11 generations, Illgau SZ → Kansas)
+and the maternal **Kroeker** line (4 generations, Reno County, Kansas). They join at the 1975
+marriage of Michael Craig Spaeny and Twila May Kroeker.
 
 ## Layout
 
 - `public/index.html` — **the hub.** Introduces the record, offers a door to each line, states
   the evidence standard, and carries the contribute section. Add each new line here.
 - `public/lines/spaeny.html` — the paternal Späni–Spaeny line. One long self-contained page.
+- `public/lines/kroeker.html` — the maternal Kroeker line. Deliberately shorter: it is four
+  generations deep and says so. **Do not pad it to match the paternal page.**
 - `public/lines/<surname>.html` — where each further line goes. `/<surname>` routes to it
   automatically; no server change needed.
 - `public/assets/site.css` — **the whole design system, shared by every page.** Palette tokens,
@@ -45,17 +49,26 @@ Two lines are planned. The paternal one is written; the maternal one is next.
 6. **Living people stay thin.** Names and towns only for Gen 10–11 and living relatives.
 7. **Both lines are held to the same standard.** A well-documented paternal line must not lend
    borrowed authority to a thin maternal one. Grade each independently.
-8. **Search all spellings** when researching Späni: Späni, Spaeni, Spane, Spaney, Spaeny, Spani,
-   Spahni, Spöni. Do the same for whatever the maternal surname turns out to be.
-9. **Numbers on the page must match the page.** If you add or remove a grave, a generation or a
+8. **Search all spellings.** For Späni: Späni, Spaeni, Spane, Spaney, Spaeny, Spani, Spahni,
+   Spöni. For Kroeker: Kroeker, Kroecker, Kröker, Kreker, Kröckert, Krueger, Kröger — and note
+   that "Bueford" is also written **Buford**, which is how the family says it.
+9. **The Kroeker surname is NOT established as Mennonite.** GAMEO documents the *name's*
+   Prussian Mennonite origin (first recorded at Tiegenhagen, 1627), and Mennonites did settle
+   Reno County from 1874 — but this family was **Baptist**, and its given names (Bueford Lewis,
+   Charles Alford) and the Seaman surname do not fit the pattern. It is written up on the page as
+   an **open question on purpose**. Do not resolve it without a record; see rule 1.
+10. **Numbers on the page must match the page.** If you add or remove a grave, a generation or a
    cemetery, update the counts in the masthead stats, the section intros and the hub door.
 
 ## Common tasks
 
-- **Start the maternal line.** Fill `research/maternal-lineage-research.md` first — the page is
-  written *from* the research file, never the reverse. Then copy `templates/line-page.html` to
-  `public/lines/<surname>.html`, write it up, and register the line in two places: the second
-  `.door` on `public/index.html`, and the `.linebar` switcher at the top of **every** line page.
+- **Add a further line.** Fill its research file first — the page is written *from* the research
+  file, never the reverse. Then copy `templates/line-page.html` to `public/lines/<surname>.html`,
+  write it up, and register the line in two places: a `.door` on `public/index.html`, and the
+  `.linebar` switcher at the top of **every** line page.
+- **Work the Kroeker line.** Its next step is documentary, not editorial: **Bueford Kroeker's
+  May 1993 obituary in the *Hutchinson News*** would convert its whole oldest generation from a
+  submitted tree into sourced fact. See track 1 of that page's research plan.
 - **Fold in a family contribution** (a story, photo, correction): verify against the relevant
   `research/` file, update the line page, add the source to its `#sources`, and append a dated
   note to the research file.
