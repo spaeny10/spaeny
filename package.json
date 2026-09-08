@@ -1,0 +1,15 @@
+{
+  "name": "spaeny-family-site",
+  "version": "1.0.0",
+  "description": "The Späni–Spaeny family record — a static family history site.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
