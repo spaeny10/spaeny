@@ -32,6 +32,8 @@ assuming is the whole method. Here they agree.
 
 ## The line (oldest → newest)
 
+*(Superseded by the "Revised line" table in the second pass below; kept for the record.)*
+
 | Gen | Name | Dates | Places | Evidence |
 |---|---|---|---|---|
 | 1 | Charles Alford Kroeker | 1891 – 1948 | Kansas | **tree only** — user-submitted, unverified |
@@ -226,3 +228,173 @@ is documented, and only because his widow's obituary repeats it. Leroy Newburn i
 nothing else. The Mennonite origin of the surname is documented; **this family's descent from
 that migration is not**. Nothing here has been checked against an original document image.
 Living people are deliberately thin — names and towns only, exactly as on the paternal line.
+
+---
+
+## Second research pass — 7 September 2026 (evening)
+
+Asked by Shawn to fill the gaps. About fifty-five targeted searches. The pattern that emerged is
+worth recording: **funeral-home sites and interment.net transcriptions can be read directly;
+Ancestry, Geni, FamilySearch, Find a Grave and the Bethel College Mennonite wiki all refuse
+direct retrieval** and yield only what a search engine happens to quote from them. That is now
+the binding constraint on the remaining gaps.
+
+### The Kroeker line goes back one more generation
+
+**Charles Alford Kroeker** — now with specifics, all from submitted trees (Ancestry, Geni):
+- b. **18 July 1891, Hutchinson**; d. **21 February 1948, Hutchinson**.
+- Parents: **Abraham Kroeker and Johanna Rosina Werrbach** (also written "Rosena Kroecker née
+  Werrbach"). Married Mary Emma Seaman; two children.
+
+**Abraham and Johanna's children**, per Geni: **Henry** (16 Jan 1880 – 11 Dec 1945), **Rosa**,
+**Elizabeth "Lizzie"**, **John**, **Mary** (23 Nov 1884 – 6 Dec 1957), **Charles Alford** (1891).
+Household recorded at **Hutchinson city, Ward 5, in the 1900 and 1910 censuses** (Geni citing
+census). Abraham's own dates and birthplace: **not found**.
+
+Two of the siblings are placed, and the placing matters:
+- **Henry Kroeker, b. 16 January 1880 in Butler County, Kansas**; d. Hutchinson 1945.
+- **Mary Kroeker Wells, b. 23 November 1884 in Hutchinson**; d. Chico, California 1957;
+  m. Alfred H. Wells; six children.
+
+So the family was in **Butler County by January 1880** and in **Hutchinson by November 1884**.
+
+### What that does to the Mennonite question — it cuts both ways, and net against
+
+**For:** Abraham. My own written test was "Cornelius, Abraham, Johann or Heinrich makes the
+Mennonite descent probable." The name is there.
+
+**Against, and heavier:**
+1. **Butler County in 1880.** The Russian Mennonite settlement was in Marion, McPherson, Harvey
+   and (from ~1884) Reno counties. Butler County — El Dorado, Augusta — had German settlers but
+   no Mennonite colony. A Mennonite family arriving 1874–78 would not be in Butler County in 1880.
+2. **Hutchinson city, not the Buhler/Inman farmland,** in 1900 and 1910.
+3. **The children's names** — Henry, Rosa, Lizzie, John, Mary, Charles — are German-American
+   Protestant, not Low German Mennonite. Only the father's name fits the pattern.
+4. **"Johanna Rosina" is a Württemberg/Saxon double name, and Werbach is a town in the
+   Main-Tauber district of Baden-Württemberg.** If Werrbach is a toponymic surname, Johanna's
+   people were south-west German Lutherans or Catholics — which would explain the naming, the
+   Butler County address, and the Baptist church two generations on.
+5. The Baptist affiliation (New Hope) and the American given names of the next two generations.
+
+**Revised position:** the surname's Mennonite origin is documented; this family's connection to
+the 1874 Kansas migration is now **less likely than it looked this morning**, not more. Abraham
+remains a genuinely Mennonite-pattern name and the question is still open — but the working
+hypothesis should now be a **German (possibly Prussian-born) Kroeker who married a south-west
+German woman and settled among ordinary German-Americans, not among the Mennonites.** The 1880
+federal census for Butler County would settle it: it records birthplace for Abraham, Johanna,
+and each of their parents.
+
+**Candidate kin, unproven and now weakened:** the **Klaas Kroeker (1860–1942) family** — Peter
+Kroeker's household from **Fuerstenwerder, Molotschna**, which emigrated **1878** to Reno County
+near Buhler; Klaas was elder of **Bethel Mennonite Church, Inman** for thirty years and had a son
+named Abraham. Geography and date once made this tempting. Butler County 1880 makes it unlikely
+to be the same family.
+
+### Ruled out
+
+- **Kenneth D. Kroeker (1954–2000), Find a Grave 10545412** — the dates fit Kenny exactly, but he
+  is buried in Seattle, was born in Dallas, and his mother was Elnora Schlaak. Not ours.
+- **Amanda "Maddie" Kroeker (1986–2017)**, Elliott Mortuary — born Torrington, Wyoming; parents
+  Berdon and Irline; grandparents Jake and Vi Kroeker. Not ours.
+- **Abraham Kroeker (1863–1944)**, Mennonite Brethren minister of Rosenort and Mountain Lake,
+  Minnesota — married Agatha Langemann 1892. Not ours.
+- **Abraham Kroeker (1862–1881)**, MLA Biograph — died at nineteen. Not ours.
+- **Helen Irene Newburn (18 Apr 1931 – 23 Aug 2005)**, Memorial Park — born six months before
+  Viola Ruth, so not a sibling; almost certainly a Newburn by marriage.
+
+### The Newburn side — Ruby's obituary
+
+**Ruby Arlene (Newburn) Parks obituary**, Elliott Mortuary, 19 November 2020:
+- b. **30 May 1928, Hutchinson**, to **Leroy Walter and Viola Mae (Clune) Newburn** — Leroy's
+  full name at last.
+- m. **Stanley Earl Parks, 25 September 1948, Hutchinson**; he d. 4 February 2003.
+- Seven daughters; 14 grandchildren, 23 great-grandchildren, 2 great-great-grandchildren.
+- Private graveside, **Memorial Park Cemetery**.
+- Siblings, all deceased by 2020: **Lee Newburn, Don Newburn, Opal Kroeker, Ruth Parks, Shirley
+  Hauschild.**
+
+So **Leroy and Viola had six children**: Opal (1923–2018), **Leroy Walter Jr. "Lee"
+(1925–1991)**, Ruby Arlene (1928–2020), Viola Ruth (1931–2018), **Don** (probably the "1942–1991"
+child linked from Viola Mae's memorial), and Shirley.
+
+**"Ruby Parks" resolved.** Ruby Arlene Parks (1928–2020) and Viola **Ruth** Parks (1931–2018)
+were **two different sisters who both married men named Parks** — not one woman under a
+nickname. The hedge in the first pass was right, and the "probably the same woman" guess was
+wrong. Both go on the page as themselves.
+
+**Leroy Walter Newburn Sr.** — still no dates, still no grave. The FamilySearch profile "Leroy
+Walter Newburn 1925–1991" that comes up on search is **the son**, not the father. Do not conflate.
+Tommy Clune Jr.'s 1973 obituary lists "**Mrs. Lee Newburn** of Hutchinson" among his sisters, so
+the father went by **Lee** too, and Viola was alive in July 1973.
+
+### The Clune side — two more generations, at Eastside Cemetery
+
+From the **interment.net transcription of Hutchinson Eastside Cemetery** (readable directly) and
+Find a Grave snippets:
+
+| Person | Dates | Evidence | Relation to Viola Mae |
+|---|---|---|---|
+| **Thomas Charles Clune Sr.** | 28 Aug 1860 – 6 May 1940 | headstone (interment.net); FG 25177764 | **father** — via Tommy Jr.'s 1973 obituary naming Mrs. Lee Newburn as his sister |
+| **Sina M. Clune** | 15 Sep 1871 – 26 Feb 1949 | "same stone with Thomas C. Sr." | **probably mother** — shared headstone; maiden name unknown |
+| **Mary Catherine Wright Clune** | b. **4 Mar 1821, Rochester, Monroe Co., New York**; d. 14 Apr 1923 Hutchinson, **aged 102** | FG 25177656; Eastside | **probably Thomas Sr.'s mother** — inferred from surname, cemetery, and a 39-year gap; not documented |
+| Thomas Charles "Tommy" Clune Jr. | 1 Mar 1895 – 2 Jul 1973 | headstone; FG 25177735; obituary | brother |
+| James Leroy Clune | 1907 – 1988 | FG 131205270 | probably brother |
+| Fred Clune | 1911 – 1913 | headstone | probably brother, died at two |
+| Clarence Charles Clune | 10 May 1937 – 24 Nov 1985, US Army | headstone | Tommy Jr.'s son |
+| Rachel E. Clune | 8 Feb 1916 – 1988 | headstone | Tommy Jr.'s widow |
+
+Viola had **ten siblings** per a tree snippet, including Mary Ann Doty and Matthew Joseph Clune.
+Tommy Jr. worked for the Kansas Highway Department; his funeral was at Johnson & Son.
+
+**Two leads on Sina.** FamilySearch has a **"Bridget Clune (1871–1949)"**, profile LJGW-3J2 —
+identical years to Sina M. Possibly the same woman under her baptismal name, with "Sina" a
+family form; possibly a sister-in-law. The "Mrs. Sina Schrader" who survived Tommy Jr. in 1973 is
+his **daughter**, named for her grandmother — not the same person.
+
+**Mary Catherine Wright Clune, 1821–1923, is now the oldest person on the entire maternal side**,
+and the only one born outside Kansas whose birthplace is recorded. If she is Thomas Sr.'s mother,
+the Clune branch runs New York → Kansas and is Irish-American by surname. Her husband is unknown.
+
+### Revised line
+
+| Gen | Kroeker spine | Evidence |
+|---|---|---|
+| 1 | **Abraham Kroeker** m. **Johanna Rosina Werrbach** | tree only; trees cite 1900/1910 census |
+| 2 | Charles Alford Kroeker, 1891–1948, m. Mary Emma Seaman | tree only |
+| 3 | Bueford Lewis Kroeker, 1916–1993, m. **Opal Mae Newburn**, 1923–2018 | death documented / documented |
+| 4 | Twila May Kroeker, living | two obituaries |
+| 5 | Shawn Spaeny | — |
+
+Entering at Gen 3 through Opal: **Leroy Walter Newburn Sr.** (dates unknown) m. **Viola Mae Clune**
+(1903–1980) ← **Thomas Charles Clune Sr.** (1860–1940) m. **Sina M.** (1871–1949) ← *probably*
+**Mary Catherine Wright Clune** (1821–1923).
+
+**Five generations on the Kroeker surname; six on the Clune branch if Mary Catherine holds.**
+Earliest **documented** date on a confirmed direct ancestor: **28 August 1860** (Thomas Sr.'s
+headstone). Earliest date on record of any kind: 4 March 1821, graded probable.
+
+### Still open, ranked
+
+1. **The 1880 federal census, Butler County, Kansas** — Abraham's birthplace and his parents'
+   birthplaces, Johanna's likewise. One page decides the Mennonite question. Free on FamilySearch;
+   needs a login, which is why it could not be reached from here.
+2. **Bueford's May 1993 obituary** — unchanged as the highest-value Kroeker document.
+3. **Bueford's and Charles's graves.** Neither surfaced on Find a Grave, BillionGraves or the
+   partial transcriptions. Fairlawn and Eastside (620-663-3241) cemetery offices.
+4. **Leroy Walter Newburn Sr.** — dates and grave. Memorial Park office, where his wife lies.
+5. **Abraham and Johanna's deaths and burials.** Probably Hutchinson, 1910s–1930s. Not found.
+6. **Mary Emma Seaman** — nothing at all.
+7. **Sina M. Clune's maiden name**; the Bridget Clune question; Mary Catherine Wright's husband.
+8. **Lila and Kenny.** Lila is "baby sister" in Jerry's obituary, so an infant death, 1943–1965.
+   Neither surfaced. The family knows.
+
+### Provenance added this pass
+
+- Ruby Arlene Parks obituary, Elliott Mortuary, 19 Nov 2020.
+- interment.net, Hutchinson Eastside Cemetery, surnames C.
+- Find a Grave (via search snippets only): Thomas Charles Clune Sr. 25177764; Mary Catherine Wright
+  Clune 25177656; Thomas Charles Clune Jr. 25177735; James Leroy Clune 131205270.
+- Geni/Ancestry trees (via search snippets only): Charles Alford Kroeker; Henry Kroeker 1880–1945;
+  Mary Wells (Kroeker) 1884–1957 — all user-submitted, no image seen.
+- MLA Biograph Wiki, "Kroeker, Klaas (1860–1942)"; GAMEO, "Bethel Mennonite Church (Inman)".
+- Wikipedia, "Werbach" (Main-Tauber-Kreis) — toponym only.

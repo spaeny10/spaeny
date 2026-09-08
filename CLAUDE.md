@@ -5,16 +5,17 @@ tiny Node server. Shawn Spaeny (shawn@jetstreamsys.com) owns and maintains it. C
 Michael Spaeny and the wider family.
 
 Two lines are written: the paternal **Späni–Spaeny** line (11 generations, Illgau SZ → Kansas)
-and the maternal **Kroeker** line (4 generations, Reno County, Kansas). They join at the 1975
-marriage of Michael Craig Spaeny and Twila May Kroeker.
+and the maternal **Kroeker** line (5 generations, Kansas since 1880; 6 on its Clune branch). They
+join at the 1975 marriage of Michael Craig Spaeny and Twila May Kroeker.
 
 ## Layout
 
 - `public/index.html` — **the hub.** Introduces the record, offers a door to each line, states
   the evidence standard, and carries the contribute section. Add each new line here.
 - `public/lines/spaeny.html` — the paternal Späni–Spaeny line. One long self-contained page.
-- `public/lines/kroeker.html` — the maternal Kroeker line. Deliberately shorter: it is four
-  generations deep and says so. **Do not pad it to match the paternal page.**
+- `public/lines/kroeker.html` — the maternal Kroeker line. Deliberately shorter: it is five
+  generations deep, the top two on submitted trees only, and it says so. **Do not pad it to match
+  the paternal page.**
 - `public/lines/<surname>.html` — where each further line goes. `/<surname>` routes to it
   automatically; no server change needed.
 - `public/assets/site.css` — **the whole design system, shared by every page.** Palette tokens,
@@ -54,11 +55,14 @@ marriage of Michael Craig Spaeny and Twila May Kroeker.
    **His forename is *Bueford*** — confirmed by Shawn, 7 Sep 2026, and it is what every record
    found so far says. Search **Buford** as well, since indexes routinely regularise it, but do
    not "correct" Bueford to Buford anywhere on the site.
-9. **The Kroeker surname is NOT established as Mennonite.** GAMEO documents the *name's*
-   Prussian Mennonite origin (first recorded at Tiegenhagen, 1627), and Mennonites did settle
-   Reno County from 1874 — but this family was **Baptist**, and its given names (Bueford Lewis,
-   Charles Alford) and the Seaman surname do not fit the pattern. It is written up on the page as
-   an **open question on purpose**. Do not resolve it without a record; see rule 1.
+9. **The Kroeker surname is NOT established as Mennonite — and the evidence now leans against.**
+   GAMEO documents the *name's* Prussian Mennonite origin (Tiegenhagen, 1627), and Charles's
+   father was named **Abraham**, which is a Mennonite-pattern name. But the family was in
+   **Butler County in 1880** (no Mennonite settlement), in Hutchinson *city* in 1900/1910, the
+   mother was **Johanna Rosina Werrbach** (south-west German naming; Werbach is a Baden town),
+   the six children have ordinary German-American names, and the line was Baptist. The page
+   states both sides. **The 1880 Butler County census settles it** — do not resolve the question
+   on the page without that record or an equivalent. See rule 1.
 10. **Numbers on the page must match the page.** If you add or remove a grave, a generation or a
    cemetery, update the counts in the masthead stats, the section intros and the hub door.
 
@@ -68,9 +72,12 @@ marriage of Michael Craig Spaeny and Twila May Kroeker.
   file, never the reverse. Then copy `templates/line-page.html` to `public/lines/<surname>.html`,
   write it up, and register the line in two places: a `.door` on `public/index.html`, and the
   `.linebar` switcher at the top of **every** line page.
-- **Work the Kroeker line.** Its next step is documentary, not editorial: **Bueford Kroeker's
-  May 1993 obituary in the *Hutchinson News*** would convert its whole oldest generation from a
-  submitted tree into sourced fact. See track 1 of that page's research plan.
+- **Work the Kroeker line.** Its next steps are documentary, not editorial: **the 1880 federal
+  census for Butler County** (Abraham and Johanna's birthplaces — decides the Mennonite question)
+  and **Bueford Kroeker's May 1993 obituary** (confirms two tree-only generations). Both need a
+  FamilySearch or newspaper-archive login, which is why they were not reached from here. Note
+  that Ancestry, Geni, FamilySearch, Find a Grave and the Bethel College wiki all block direct
+  page retrieval; funeral-home sites and interment.net do not.
 - **Fold in a family contribution** (a story, photo, correction): verify against the relevant
   `research/` file, update the line page, add the source to its `#sources`, and append a dated
   note to the research file.
