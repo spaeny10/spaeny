@@ -12,11 +12,23 @@ It is not, and should not be made to look like, the eleven-generation Spaeny lin
 **From Shawn directly, 7 September 2026:**
 
 - His mother is **Twila May Kroeker**.
-- Her father was **Buford Kroeker**.
+- Her father was **Bueford Kroeker**. *(Shawn first wrote it "Buford"; asked about the
+  discrepancy with the records, he confirmed **Bueford** on 7 September 2026. Every document
+  found so far agrees. Search "Buford" anyway — indexes regularise unusual forenames — but the
+  family form and the record form are the same here, which is not something this project can
+  assume: see the paternal line, where they diverged for fifty-seven years.)*
 - His parents — **Michael Craig Spaeny and Twila May Kroeker** — **married in 1975**.
 
 Everything below was found from those three facts in a single afternoon. All of it is Reno
 County, Kansas.
+
+## A note on the forename
+
+**Bueford**, not Buford. The two obituaries, the submitted trees and the family all give
+*Bueford*, and Shawn confirmed it directly on 7 September 2026. It is worth stating explicitly
+because this project has one line — the paternal one — where the family's spelling and the
+record's spelling parted company for two generations, and the habit of checking rather than
+assuming is the whole method. Here they agree.
 
 ## The line (oldest → newest)
 

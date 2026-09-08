@@ -50,8 +50,10 @@ marriage of Michael Craig Spaeny and Twila May Kroeker.
 7. **Both lines are held to the same standard.** A well-documented paternal line must not lend
    borrowed authority to a thin maternal one. Grade each independently.
 8. **Search all spellings.** For Späni: Späni, Spaeni, Spane, Spaney, Spaeny, Spani, Spahni,
-   Spöni. For Kroeker: Kroeker, Kroecker, Kröker, Kreker, Kröckert, Krueger, Kröger — and note
-   that "Bueford" is also written **Buford**, which is how the family says it.
+   Spöni. For Kroeker: Kroeker, Kroecker, Kröker, Kreker, Kröckert, Krueger, Kröger.
+   **His forename is *Bueford*** — confirmed by Shawn, 7 Sep 2026, and it is what every record
+   found so far says. Search **Buford** as well, since indexes routinely regularise it, but do
+   not "correct" Bueford to Buford anywhere on the site.
 9. **The Kroeker surname is NOT established as Mennonite.** GAMEO documents the *name's*
    Prussian Mennonite origin (first recorded at Tiegenhagen, 1627), and Mennonites did settle
    Reno County from 1874 — but this family was **Baptist**, and its given names (Bueford Lewis,
