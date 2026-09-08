@@ -1,17 +1,28 @@
-# Spaeny family site — project notes for Claude Code
+# Spaeny family record — project notes for Claude Code
 
-This repo is a single-page family history website: **The Späni–Spaeny Line**, compiled for
-Michael Spaeny and the wider Spaeny family. It is deployed on Railway as a static site behind
-a tiny Node server. Shawn Spaeny owns and maintains it.
+A family history website built **one ancestral line per page**, deployed on Railway behind a
+tiny Node server. Shawn Spaeny (shawn@jetstreamsys.com) owns and maintains it. Compiled for
+Michael Spaeny and the wider family.
+
+Two lines are planned. The paternal one is written; the maternal one is next.
 
 ## Layout
 
-- `public/index.html` — the entire site. One self-contained HTML file: inline CSS, inline JS,
-  Google Fonts (Spectral / Archivo / Archivo Narrow). Edit this file to change the page.
-- `server.js` — zero-dependency static server. Serves `public/`, `/health` for Railway.
-  Unknown paths fall back to `index.html`. No changes normally needed.
-- `research/spaeny-lineage-research.md` — **the evidence base.** Every fact on the page traces
-  to a line in this file. Read it before changing any name, date, place or relationship.
+- `public/index.html` — **the hub.** Introduces the record, offers a door to each line, states
+  the evidence standard, and carries the contribute section. Add each new line here.
+- `public/lines/spaeny.html` — the paternal Späni–Spaeny line. One long self-contained page.
+- `public/lines/<surname>.html` — where each further line goes. `/<surname>` routes to it
+  automatically; no server change needed.
+- `public/assets/site.css` — **the whole design system, shared by every page.** Palette tokens,
+  type, section furniture, the generation spine, tables, badges. Extend it rather than adding
+  page-level `<style>` blocks, so the lines keep matching.
+- `public/assets/site.js` — shared behaviour. Currently just the evidence filter on the
+  generation spine; it binds only if `.seg`/`#spine` are present, so it is safe on any page.
+- `templates/line-page.html` — skeleton for a new line's page. Outside `public/`, never served.
+- `research/` — **the evidence base, one file per line, plus a README that defines the standard.**
+  Read the relevant file before changing any name, date, place or relationship.
+- `server.js` — zero-dependency static server. Clean URLs, real 404s, `/health` for Railway.
+  Paths are confined to `public/`. No changes needed to add a line.
 - `railway.json`, `package.json` — deploy config. Node ≥ 18, `node server.js`.
 
 ## Editorial rules — these matter more than the code
@@ -21,7 +32,8 @@ a tiny Node server. Shawn Spaeny owns and maintains it.
    isn't documented, say so and add it to the research plan instead.
 2. **Keep the confidence grading honest.** Each generation card carries `data-conf="doc|part|tree"`
    and a visible badge. "Tree only" means no document is attached on FamilySearch. Only upgrade
-   a grade when a specific record is cited.
+   a grade when a specific record is cited. Headline statistics must respect the same grading —
+   don't call a tree-only date "firm".
 3. **"Probably" means probably.** Several graves are labelled "probably his wife" etc. Do not
    remove the hedge without a source.
 4. **Donald's WWII service:** the induction record (serial 37732174, 29 Jan 1944, Fort
@@ -29,32 +41,41 @@ a tiny Node server. Shawn Spaeny owns and maintains it.
    the WD AGO 53-55 discharge form or an equivalent record is in hand.
 5. **The Späni coat of arms:** exists in Styger's *Wappenbuch des Kantons Schwyz* (1936); the
    blazon has not been obtained. Do not draw or describe one until the Staatsarchiv Schwyz copy
-   arrives. When it does, replace the dashed placeholder shield in `#crest`.
+   arrives (afk@sz.ch). When it does, replace the dashed placeholder shield in `#crest`.
 6. **Living people stay thin.** Names and towns only for Gen 10–11 and living relatives.
-7. **Search all spellings** when researching: Späni, Spaeni, Spane, Spaney, Spaeny, Spani,
-   Spahni, Spöni.
+7. **Both lines are held to the same standard.** A well-documented paternal line must not lend
+   borrowed authority to a thin maternal one. Grade each independently.
+8. **Search all spellings** when researching Späni: Späni, Spaeni, Spane, Spaney, Spaeny, Spani,
+   Spahni, Spöni. Do the same for whatever the maternal surname turns out to be.
+9. **Numbers on the page must match the page.** If you add or remove a grave, a generation or a
+   cemetery, update the counts in the masthead stats, the section intros and the hub door.
 
 ## Common tasks
 
-- **Fold in a family contribution** (a story, photo, correction): verify against `research/`,
-  update the relevant section of `index.html`, add the source to `#sources`, and append a dated
-  note to `research/spaeny-lineage-research.md`.
-- **Add a photograph:** put the file in `public/img/`, reference it with a relative path, add a
+- **Start the maternal line.** Fill `research/maternal-lineage-research.md` first — the page is
+  written *from* the research file, never the reverse. Then copy `templates/line-page.html` to
+  `public/lines/<surname>.html`, write it up, and register the line in two places: the second
+  `.door` on `public/index.html`, and the `.linebar` switcher at the top of **every** line page.
+- **Fold in a family contribution** (a story, photo, correction): verify against the relevant
+  `research/` file, update the line page, add the source to its `#sources`, and append a dated
+  note to the research file.
+- **Add a photograph:** put the file in `public/img/`, reference it as `/img/<name>`, add a
   caption with who/when/where and who supplied it. Keep files under ~500 KB (resize first).
 - **Update the memorial register:** rows live in `#graves`, grouped by cemetery. Each row has a
-  Find a Grave memorial id link. Plot fields show `—` when unknown.
-- **Set the contact address:** `CONTACT_EMAIL` appears twice in `#contribute`. Replace with the
-  address family should write to.
+  Find a Grave memorial id link. Plot fields show `—` when unknown. Then fix the counts (rule 9).
+- **Change the contact address:** it appears in `#contribute` on the hub and on each line page.
 
 ## Design system (don't fight it)
 
-- Palette tokens in `:root`, light and dark variants. Schwyz red (`--schwyz`) is the accent for
-  the American side and key moments; glacier teal (`--glacier`) marks the Swiss side and
-  documented evidence; gold marks "needs proof".
+- Palette tokens in `:root` in `assets/site.css`, light and dark variants. Schwyz red
+  (`--schwyz`) is the accent for the American side and key moments; glacier teal (`--glacier`)
+  marks the Swiss side and documented evidence; gold marks "needs proof". A second line should
+  reuse these roles rather than introduce a new palette.
 - Type: Spectral for names/headings, Archivo for body, Archivo Narrow for uppercase labels
   and data.
 - Structure encodes meaning: the vertical spine changes colour at the Atlantic crossing; the
-  two-column timeline pairs canton events with family events by year.
+  two-column timeline pairs homeland events with family events by year. Reuse both devices on
+  the maternal line if its story has an equivalent break.
 
 ## Running locally
 
@@ -62,6 +83,17 @@ a tiny Node server. Shawn Spaeny owns and maintains it.
 node server.js          # http://localhost:3000
 ```
 
+`/` is the hub, `/spaeny` the paternal line. `/spaeny/` and `/lines/spaeny.html` also work.
+
 ## Deploying
 
-Push to the connected GitHub repo; Railway redeploys automatically. See README.md.
+Push to the connected GitHub repo; Railway redeploys automatically. **No remote is configured
+yet** — see README.md.
+
+## Verification log
+
+September 2026: the Swiss and archival background was checked against the open web — Illgau's
+commune history, the Historical Dictionary of Switzerland, the Staatsarchiv Schwyz, the National
+Archives, and the two Kansas record offices. Six statements were corrected. Details are in
+`research/spaeny-lineage-research.md` under "Verification pass". The genealogy itself was not
+re-derived and still rests on the sources graded on the page.

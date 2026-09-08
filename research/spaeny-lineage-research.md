@@ -132,3 +132,98 @@ Also: Donald's son **Matthew Jay "Matt" Spaeny, 1964–2015** (per Find a Grave)
 **Memorial register (Find a Grave IDs):** Charles A 154207465 (Lyons Municipal, Lot 70 Lyons Public) · Laura Nettie Rider 151287508 (Lyons Public Addition) · Ernest C 82272609 · Ora Kathryn 82272660 · Sophia 65046759 (St Mary's, Chase) · Donald 82266879 · Alberta 115512678 (Memorial Park, Hutchinson) · Matthew Jay 142227030 (Yukon Cem., OK, A 63-03) · Infant 83637832 (Alva Municipal, 06-072-8) · Ernest J 25992952 (Mountain View, Riverton WY, Sec TD Blk 41 Gr 1) · Delilah Blanche Lepej 25992951 · Darrell Z 91797538 (Mountview, Billings MT, Sec 14 Lot 161 Gr 4) · Mary Kay 79488370 (Greenhill, Laramie WY, Blk 98 Lot 10 Sp 1ER) · Charles L 53989407 (Wichita Park, Acacia C Lot 252 Sp 3) · Beatrice Meeker 38418122 (Old Mission, Wichita) · Henry H Sr 7764021, Elizabeth Emily Disney 7763170, Henry H Jr 57525844, Bessie Marie Sisson 136375233, David James 49713006 (all Gypsum Hill, Salina) · John Charles Sr 285233128 (Assaria Lutheran, Plot 13) · Max 72176843, Barbara F 72176879 (Inglewood Park) · Casey Lynn 288553926 (cremated). Swiss graves recycled after ~25 yrs — register entries only.
 
 **Living-page decision:** `db`/`room` capabilities restrict viewers to Shawn's Jetstreamsys org → family locked out. Built as a plain shareable page; relatives contribute via artifact comments; fold in on republish.
+
+---
+
+## Verification pass — 7 September 2026
+
+Checked the page's Swiss, archival and institutional claims against public sources. **The
+genealogy was not re-derived** — no descent, date or relationship changed, and gens 1–4 remain
+tree-only. What follows concerns background facts and the actionability of the research plan.
+
+### Confirmed
+
+- **Illgau's eight founding families** — Bürgler, Betschart, Heinzer, Rickenbacher, Horath,
+  Martin, Schuler, **Späni** — confirmed on the commune's own history page, *Geschichte eines
+  Bergdorfes* (illgau.ch), which draws on the *Illgauer Chronik*.
+- **First mentioned 1370 as *Ilgoe*** ✓ · **first pastor documented 1393** ✓ · **separation from
+  Muotathal into an independent parish 1676** ✓ (Historical Dictionary of Switzerland).
+- **Balmis** ✓ — three buildings excavated 1987 and 1994; oldest hut built ~1100, inhabited
+  year-round until the early 13th century. (Site text tightened to match.)
+- **Church consecrated 14 October 1893** ✓ — a new Romanesque-revival church, consecrated by
+  **Bishop Battaglia of Chur**. This is the load-bearing date behind "sixteen days before Ernest
+  Columbus was born in Brooklyn", and it holds. (Note: HLS records the *older* church as first
+  mentioned 1600 and rebuilt 1708 and 1958 — a different building, not a contradiction.)
+- **First road 1909–1911** ✓ — Grünenwald up to the village, cost ~185,000 francs.
+- **Sennengesellschaft Illgau founded 1903** ✓, and has run the Sennenkilbi since.
+- **Elevation 807 m** ✓ · **96.8% Roman Catholic** ✓ · **~795 residents (2020)** ✓.
+- **Castle Garden 1855–1890, 8m+ arrivals; Barge Office 1890–92; Ellis Island opened 1 January
+  1892** ✓ — all three exactly as stated. The Castle Garden argument stands.
+- **1973 NPRC fire** ✓ — 12 July 1973; ~80% loss of Army personnel files for discharges
+  1 Nov 1912 – 1 Jan 1960; 16–18 million records; no duplicates, no microfilm, no prior index.
+- **Styger's *Wappenbuch*** ✓ exists and covers every Schwyz *Geschlecht*; the Staatsarchiv
+  supplies a black-and-white copy of an entry electronically on request, at **afk@sz.ch**.
+- **Cailee Spaeny** ✓ — b. 24 July 1998 Knoxville TN, parents **Mark and Reja**, **seventh of
+  nine**, raised **Springfield, Missouri**. All three particulars match the obituary.
+- **Rice County Register of Deeds**, 101 W Commercial St, Lyons KS 67554 ✓.
+- **Kansas National Guard Military Archives**, 2722 SW Topeka Blvd, Topeka KS 66611,
+  785-646-0134 ✓.
+
+### Corrected
+
+1. **Illgau → Schwyz distance.** Page said "6 km by road". Wrong: the road descends to Schlattli
+   in the Muota valley before turning for Schwyz. Straight-line is roughly 7 km; by road it is
+   substantially more. Page now describes the route instead of asserting a figure.
+2. **Canton Schwyz population.** Page said "~35,000 in 1833 → ~71,000 in 1950" — unsourced.
+   Replaced with figures that actually bracket the emigration: **~34,000 in 1799 → ~55,000 in
+   1900**.
+3. **Emigration rate.** "Third-highest in Switzerland" ✓ confirmed — and it is across the
+   **19th century**, behind **Ticino and Obwalden**, not specifically 1850–1900. Also found: a
+   general crop failure in **1853** drove a mass wave to America, and in the **1880s** Schwyz
+   flipped to net in-migration — meaning Karl Anton left at the tail of the wave, not its peak.
+4. **Styger.** Page said he "published" the *Wappenbuch* in 1936. He died in **1935**; it was
+   published posthumously, edited by his son **Paul Styger**. Martin Styger (1856–1935) of
+   Rothenthurm was a lawyer, chancery director, and the canton's state archivist 1897–1900.
+5. **"569 old Schwyz families."** Not stated by the Staatsarchiv, which says only *sämtliche
+   Schwyzer-Geschlechter*. Figure removed; the claim that Späni is included is unaffected.
+6. **Cable cars.** Page said 1952. Correct: **Ried–Illgau 1953** and **Illgau–Vorder Oberberg
+   1955** (HLS). Also added: the **winter-safe road came only in 1973**, after which ~200
+   villagers commuted down to Schwyz by 2000.
+
+### Caveats found in the research plan itself
+
+- **The Kansas National Guard archive holds *Kansas National Guard* member records** (1910–1976).
+  Donald was inducted as a **federal selectee**, not a Guardsman, so he may simply not be in
+  their holdings. Still worth a phone call — but call before filing an SF-180. The page now says
+  this.
+- **The Staatsarchiv Schwyz has digitised and microfilmed the baptism, marriage and death books
+  of *every* parish in the canton** — a significant upgrade to Track 2, because it means the
+  records for gens 1–5 exist and are findable. But they are **consultable in the reading room
+  only** (Kollegiumstrasse 30, 6430 Schwyz; Tue–Fri; staatsarchiv@sz.ch; +41 41 819 20 65), and
+  staff research help is explicitly limited. Realistically this is a trip or a hired local
+  researcher, not an email.
+- **Rice County contact detail**, for the discharge-paper hunt: **620-257-2931**,
+  **rdeeds@ricecounty.us** (Register of Deeds, Rhonda Hunt).
+
+### Not verified this pass
+
+- The **Familiennamenbuch der Schweiz** commune list for Späni (Arth, Innerthal, Schübelbach,
+  Steinen, Unteriberg, Einsiedeln, Illgau, Altendorf, Lauerz, Mühlau AG, Hochdorf LU). The
+  database at familiennamenbuch.ch is a search form that could not be queried programmatically.
+  The list stands as recorded in the first pass and should be re-checked by hand. The book
+  records citizenship **as of 1962**, which the page states correctly.
+- Every **Find a Grave memorial ID** in the register — not individually re-opened.
+- A lead worth following: Späni appears in academic work on *Schwyzer Landleutegeschlechter*
+  (Henseler, ZSVF 2024) as a name established in both **Appenzell** and Schwyz territory.
+
+### Site corrections made in the same pass (not research findings)
+
+- The memorial register's own summary said "twelve cemeteries across six states". Counting the
+  rows: **thirteen cemeteries across five states** (KS, OK, WY, MT, CA), plus one cremation.
+  24 memorials ✓ was correct.
+- The masthead billed **1658** as the "earliest firm date". Leonard Karl's generation is graded
+  **tree only** — the page's own headline contradicted its own grading. Now **1774**, the
+  earliest date with a source attached (gen 5, Swiss church books).
+- The Cailee Spaeny section had no navigation entry and was unreachable from the nav bar.
+- `CONTACT_EMAIL` was still an unreplaced placeholder in the contribute section; set to
+  shawn@jetstreamsys.com.

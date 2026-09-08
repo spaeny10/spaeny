@@ -1,0 +1,255 @@
+<!--
+  SKELETON FOR A NEW ANCESTRAL LINE
+  =================================
+  This file lives outside public/ and is never served. To use it:
+
+    1. Copy to public/lines/<surname>.html   ->  reachable at /<surname>
+    2. Replace every [[BRACKETED]] placeholder.
+    3. Delete any section this line hasn't earned. An empty section is worse
+       than a missing one — do not ship headings with nothing under them.
+    4. Register the line in TWO places:
+         - public/index.html      the second .door
+         - the .linebar switcher  at the top of EVERY line page, this one and
+                                  the paternal one
+    5. Write the research file FIRST. The page is written from the research,
+       never the reverse. See research/README.md.
+
+  The design system comes entirely from /assets/site.css. Don't add a <style>
+  block — extend that file if you genuinely need something new, so the lines
+  keep matching.
+
+  Evidence grading, used on every .gen article:
+    data-conf="doc"   record-backed   badge: "N sources"
+    data-conf="part"  partly sourced  badge: "1 source"
+    data-conf="tree"  tree only       badge: "Tree only"
+  The filter in /assets/site.js binds to these automatically.
+
+  data-side="ch"|"us" colours the spine either side of a migration.
+  Drop the .crossing block and just use one value if this line never moved.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="[[ONE SENTENCE: the line, its homeland, its destination.]]">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="[[LINE NAME]]">
+<meta property="og:description" content="[[ONE SENTENCE]]">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23B8332A'/%3E%3Crect x='7' y='4' width='3' height='10' fill='%23fff'/%3E%3Crect x='3.5' y='7.5' width='10' height='3' fill='%23fff'/%3E%3C/svg%3E">
+<title>[[LINE NAME]]</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Archivo:wght@400;500;600&family=Archivo+Narrow:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<div class="wrap">
+
+<div class="linebar">
+  <a class="home" href="/">← The Spaeny family record</a>
+  <nav class="lines" aria-label="Ancestral lines">
+    <a href="/spaeny">Paternal · Späni–Spaeny</a>
+    <a href="/[[SLUG]]" aria-current="page">Maternal · [[SURNAME]]</a>
+  </nav>
+</div>
+
+<nav class="nav" aria-label="Sections">
+  <ul>
+    <li><a href="#brief">The story</a></li>
+    <li><a href="#homeland">Homeland</a></li>
+    <li><a href="#lineage">Lineage</a></li>
+    <li><a href="#graves">Graves</a></li>
+    <li><a href="#migration">Migration</a></li>
+    <li><a href="#plan">Research</a></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+</nav>
+
+<header class="mast">
+  <div class="mast-top">
+    <div style="display:grid;gap:1rem">
+      <p class="eyebrow">The maternal line · [[FROM]] to [[TO]] · updated [[DATE]]</p>
+      <h1>[[LINE NAME]]</h1>
+    </div>
+    <div class="stamp">
+      <b>[[LABEL e.g. Homeland]]</b>
+      <div>[[PLACE]]</div>
+      <div>[[REGION, COUNTRY]]</div>
+    </div>
+  </div>
+  <p class="deck">[[TWO SENTENCES: the arc of the line, and what this page is.]]</p>
+  <div class="stat-row">
+    <!-- Only stats you can defend. Never headline a tree-only figure as firm. -->
+    <div class="stat"><span class="n">[[N]]</span><span class="l">generations traced</span></div>
+    <div class="stat"><span class="n">[[YEAR]]</span><span class="l">earliest documented date</span></div>
+    <div class="stat"><span class="n">[[N]]</span><span class="l">graves located</span></div>
+  </div>
+  <div class="forword"><b>For the family.</b> [[Who this was compiled for, and the invitation to
+  correct it.]] Where something is a guess, it says so.</div>
+</header>
+
+<section id="brief">
+  <div class="sec-head">
+    <p class="eyebrow">The story in short</p>
+    <h2>[[HEADING]]</h2>
+  </div>
+  <div class="prose">
+    <p>[[Paragraph. Lead with the oldest solid ground, not the earliest name.]]</p>
+    <p>[[Paragraph.]]</p>
+    <p>[[Close with what is still missing, and point at #plan.]]</p>
+  </div>
+</section>
+
+<section id="homeland">
+  <div class="sec-head">
+    <p class="eyebrow">Where we come from</p>
+    <h2>[[HEADING]]</h2>
+    <p>[[What the two or three places are, and why each matters.]]</p>
+  </div>
+  <div class="homeland">
+    <div class="prose">
+      <p>[[History of the place, tied to the family wherever possible.]]</p>
+    </div>
+    <div class="canton-card">
+      <p class="eyebrow">[[PLACE]]</p>
+      <dl>
+        <dt>[[Label]]</dt><dd>[[Fact]]</dd>
+        <dt>[[Label]]</dt><dd>[[Fact]]</dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- Two-column timeline: homeland events beside family events, same years.
+       Use only if this line's story has a homeland worth pairing. Add class
+       "hot" to a row to mark a turning point. -->
+  <div class="sub">
+    <h3>[[Place]] and the family, side by side</h3>
+    <p class="lede">[[Why reading the columns together changes the picture.]]</p>
+  </div>
+  <div class="twin">
+    <div class="twin-head"><span>Year</span><span>[[PLACE]]</span><span>The family</span></div>
+    <div class="twin-row"><span class="y">[[YEAR]]</span><span class="c">[[Public event.]]</span><span class="f"></span></div>
+    <div class="twin-row hot"><span class="y">[[YEAR]]</span><span class="c"></span><span class="f"><b>[[Family event.]]</b></span></div>
+  </div>
+</section>
+
+<section id="lineage">
+  <div class="sec-head">
+    <p class="eyebrow">The descent</p>
+    <h2>The line, oldest to youngest</h2>
+    <p>Each generation is graded by what actually backs it. [[Say plainly which ones are weak.]]</p>
+  </div>
+  <div class="toolbar">
+    <div class="seg" role="group" aria-label="Filter generations by evidence">
+      <button type="button" data-f="all" aria-pressed="true">All [[N]]</button>
+      <button type="button" data-f="doc" aria-pressed="false">Documented</button>
+      <button type="button" data-f="tree" aria-pressed="false">Needs proof</button>
+    </div>
+    <div class="legend">
+      <span><i class="dot doc"></i> Record-backed</span>
+      <span><i class="dot part"></i> Partly sourced</span>
+      <span><i class="dot tree"></i> Tree only, no documents</span>
+    </div>
+  </div>
+
+  <div class="spine" id="spine">
+
+    <article class="gen" data-side="ch" data-conf="tree" data-key="1">
+      <div class="gen-head"><span class="gen-num">Gen 1</span><h3>[[NAME]]</h3><span class="dates">[[DATES]]</span><span class="badge tree">Tree only</span></div>
+      <div class="gen-body">
+        <p>[[Who they were, where, and what the record does and doesn't show.]]</p>
+        <dl class="facts"><dt>Married</dt><dd>[[NAME, DATE, PLACE]]</dd></dl>
+      </div>
+    </article>
+
+    <!-- Repeat. If the line crossed an ocean, drop this in at the crossing and
+         switch data-side from "ch" to "us" on the generations after it. -->
+    <div class="crossing">
+      <p class="eyebrow">The crossing · [[WINDOW]]</p>
+      <h3>[[What is known, and what bounds it.]]</h3>
+      <p>[[The arithmetic that brackets the date.]]</p>
+    </div>
+
+    <article class="gen" data-side="us" data-conf="doc" data-key="you">
+      <div class="gen-head"><span class="gen-num">Gen [[N]]</span><h3>[[NAME]]</h3><span class="dates">living</span></div>
+      <div class="gen-body"><p>[[Living people: names and towns only.]]</p></div>
+    </article>
+
+  </div>
+</section>
+
+<section id="graves">
+  <div class="sec-head">
+    <p class="eyebrow">Memorial register</p>
+    <h2>Where the family is buried</h2>
+    <p>[[N]] memorials in [[N]] cemeteries across [[N]] states. <!-- COUNT THE ROWS. --></p>
+  </div>
+  <div class="cem">
+    <div class="cem-head"><h3>[[CEMETERY]]</h3><span class="loc">[[TOWN, COUNTY, STATE]]</span><span class="branch">[[Branch]]</span></div>
+    <div class="tbl-scroll"><table class="graves">
+      <thead><tr><th>Name</th><th>Dates</th><th>Plot</th><th>Memorial</th></tr></thead>
+      <tbody>
+        <tr class="direct"><td class="n">[[NAME]]<small>[[relationship]]</small></td><td class="d">[[DATES]]</td><td class="p">—</td><td class="id"><a href="https://www.findagrave.com/memorial/[[ID]]">[[ID]]</a></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="migration">
+  <div class="sec-head">
+    <p class="eyebrow">Geography</p>
+    <h2>Where the family actually lived</h2>
+    <p>[[The shape of the movement in one sentence.]]</p>
+  </div>
+  <div class="moves">
+    <div class="move"><span class="when">[[YEARS]]</span><span class="where"><b>[[PLACE]]</b><em>[[What happened there]]</em></span></div>
+    <div class="move here"><span class="when">[[YEARS]]</span><span class="where"><b>[[PLACE]]</b><em>[[A turning point — class "here" marks it]]</em></span></div>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="sec-head">
+    <p class="eyebrow">What to do next</p>
+    <h2>Research plan, ordered by what will actually crack</h2>
+    <p>Ranked by the ratio of answer to effort.</p>
+  </div>
+  <div class="tracks">
+    <div class="track">
+      <div class="track-head"><span class="rank">1</span><h3>[[TRACK]]</h3><span class="odds">[[Odds · effort]]</span></div>
+      <ol>
+        <li><b>[[Step.]]</b> [[Why it works and what it yields.]]
+          <span class="where">[[Where to go — repository, address, URL, phone]]</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="sec-head">
+    <p class="eyebrow">Provenance</p>
+    <h2>What this record is built on</h2>
+  </div>
+  <div class="sources">
+    <ul>
+      <li><b>[[SOURCE]]</b> — [[what it establishes]].</li>
+    </ul>
+    <div class="caveat"><b>How to read this record.</b> “Record-backed” means indexed documents
+    are attached to that person. “Tree only” means a contributor entered them with no document
+    behind it — plausible, consistent, and not yet proof. [[Name which generations are in that
+    category.]] Nothing here has been checked against an original document image; every citation
+    is an index entry, and index entries carry transcription errors. Where this page says
+    “probably,” it means exactly that. Living people are deliberately kept thin.</div>
+  </div>
+</section>
+
+<footer>
+  <span>The maternal line · part of <a href="/">the Spaeny family record</a> · compiled for [[WHO]]</span>
+  <span>[[PLACE]] → [[PLACE]] → [[PLACE]]</span>
+</footer>
+
+</div>
+<script src="/assets/site.js"></script>
+</body>
+</html>
